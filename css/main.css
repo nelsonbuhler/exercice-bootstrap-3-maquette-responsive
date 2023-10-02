@@ -1,10 +1,10 @@
 /* ====================================
 // css variables
 // ==================================== */
-
 :root {
+  --DMserif: "DM Serif Display", serif;
+  --heebo: "Heebo", sans-serif;
 }
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -17,6 +17,8 @@
 
 html {
   font-size: 16px;
+  font-family: var(--heebo);
+  background-color: #f7f7f7;
 }
 
 body {
@@ -37,4 +39,87 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: var(--DMserif);
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.spe-title {
+  font-family: var(--DMserif);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.song {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.song p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.song strong {
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+.song h2 {
+  padding: 25px 10px;
+}
+
+.song .info {
+  padding: 30px 10px;
+}
+
+.subtitle p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  background-color: #eee;
+  padding: 0px 20px;
+}
+
+h2 strong {
+  font-weight: 400;
+}
+
+.reviews span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.reviews p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.reviews {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.reviews div {
+  padding: 20px;
+}
+
+.reviews p {
+  padding: 10px 20px;
 }
